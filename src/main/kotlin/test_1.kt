@@ -1,3 +1,23 @@
 fun main() {
-    println("인텔리제이 깃허브 커밋 테스트")
+    println("== 게시판 관리 프로그램 시작 ==")
+
+
+    while (true) {
+
+        print("명령어) ")
+        val command = readLine()
+
+        if (command == "system exit") {
+
+            println("프로그램을 종료합니다")
+            break
+
+        }
+
+
+    }
+
+    println("== 게시판 관리 프로그램 끝 ==")
+
+
 }
